@@ -28,7 +28,6 @@ def count_contestants_by_hometown(data, hometown)
     arrays.each do |x|
       return x["name"] if x["age"] == 27
       return x
-      binding.pry
       end
     end
     end
