@@ -12,7 +12,7 @@ winnername = ""
 end
 end
 end
-return winnername.first
+return winnername
 end
 
 
