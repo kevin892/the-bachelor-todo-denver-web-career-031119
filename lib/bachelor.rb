@@ -16,9 +16,8 @@ end
 def get_contestant_name(data, occupation)
   data.each do |seasons. arrays|
     binding.pry
-    namer = i[:name] if i[:occupation]== occupation
+    n
 end
-return namer
 end
 
 def count_contestants_by_hometown(data, hometown)
