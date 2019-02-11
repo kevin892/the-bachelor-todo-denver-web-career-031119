@@ -7,9 +7,7 @@ winnername = ""
    arrays.each do |x|
        if x["status"]= "Winner"
          winnername = x["name"]
-       binding.pry
 
-       winnername=winnername.to_s
 
   end
 end
