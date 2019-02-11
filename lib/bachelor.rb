@@ -14,8 +14,8 @@ end
 
 
 def get_contestant_name(data, occupation)
-  namer = ""
-  data[occupation.to_sym].each do |i|
+  data.each do |seasons. arrays|
+    binding.pry
     namer = i[:name] if i[:occupation]== occupation
 end
 return namer
