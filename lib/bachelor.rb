@@ -7,7 +7,7 @@ winnername = ""
    arrays.each do |x|
       x.each do |k,v|
         binding.pry
-       winnername = x.values_at("name") if v == "Winner"
+       winnername = k.value if v == "Winner"
        winnername=winnername.to_s
 
   end
