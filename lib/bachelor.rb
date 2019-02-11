@@ -8,12 +8,11 @@ winnername = ""
        if x["status"]= "Winner"
          winnername = x["name"]
 
-
   end
 end
 end
 end
-return winnername
+return winnername.first
 end
 
 
