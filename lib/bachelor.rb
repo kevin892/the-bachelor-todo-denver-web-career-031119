@@ -19,7 +19,6 @@ def get_contestant_name(data, occupation)
     arrays.each do |x|
       if x["occupation"] = occupation
       newarray.push(x["name"])
-    binding.pry
     return newarray
 end
 end
