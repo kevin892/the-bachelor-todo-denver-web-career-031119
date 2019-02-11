@@ -30,7 +30,10 @@ end
 
 
 def get_occupation(data, hometown)
-  # code here
+  data.each do |seasons, arrays|
+    arays.each do |x|
+      if x["hometown"] == hometown
+        return x["occupation"]
 end
 
 def get_average_age_for_season(data, season)
