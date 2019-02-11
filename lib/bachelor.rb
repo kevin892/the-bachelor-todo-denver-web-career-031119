@@ -1,13 +1,13 @@
 require "pry"
 
 def get_first_name_of_season_winner(data, season)
-winnername = nil
+winnername = ""
    data.each do |i, arrays|
    if season == i
    arrays.each do |x|
       x.each do |k,v|
+        binding.pry
        winnername = x.values_at("name") if x.has_value("Winner")
-       binding.pry
        winnername=winnername.to_s
 
   end
