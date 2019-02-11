@@ -27,7 +27,7 @@ def count_contestants_by_hometown(data, hometown)
   counter=0
   data.each do |seasons, arrays|
     arrays.each do |x|
-    if x["hometown"].inlcude?(hometown)
+    if x["hometown"].include?(hometown)
       counter += 1
       return counter
       end
