@@ -48,5 +48,4 @@ end
 end
 end
 counter /= j
-return counter
 end
