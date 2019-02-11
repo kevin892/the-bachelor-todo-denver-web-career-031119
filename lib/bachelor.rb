@@ -30,7 +30,7 @@ counter = 0
       if x["hometown"] == hometown
         counter += 1
         binding.pry
-        return array.length
+        return counter
       end
     end
   end
