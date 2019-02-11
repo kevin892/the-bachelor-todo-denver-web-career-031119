@@ -24,9 +24,10 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
+  t = ''
   data.each do |seasons, arrays|
     arrays.each do |x|
-      return x["name"] if x["age"] == 27
+      t= x["name"] if x["age"] == 27
       binding.pry
       end
     end
