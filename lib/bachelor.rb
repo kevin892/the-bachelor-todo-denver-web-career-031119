@@ -20,7 +20,7 @@ def get_contestant_name(data, occupation)
       if arrays["occupation"] = occupation
       newarray.push(arrays["name"])
     return newarray
-end
+
 end
 end
 end
