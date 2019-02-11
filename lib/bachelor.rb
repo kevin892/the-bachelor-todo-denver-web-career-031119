@@ -14,11 +14,13 @@ end
 
 
 def get_contestant_name(data, occupation)
+  newarray =[]
   data.each do |seasons, arrays|
     arrays.each do |x|
       if x["occupation"] = occupation
-        return x["name"]
+      newarray.push(x["name"])
     binding.pry
+    return newarray
 end
 end
 end
