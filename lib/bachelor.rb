@@ -26,9 +26,8 @@ end
 def count_contestants_by_hometown(data, hometown)
   counter=[]
   data.each do |seasons, arrays|
-    arrays.each do |x|
-    x.map do |x, y|
-      counter.push(y)
+    x.map do |x|
+      counter.push(x)
     end
 binding.pry
 
