@@ -30,7 +30,7 @@ def count_contestants_by_hometown(data, hometown)
       if x["hometown"] == hometown
         array.push(x["name"]
         return array.length
-  
+
 
   # code here
 end
