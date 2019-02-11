@@ -6,8 +6,9 @@ winnername = ""
    if season == i
    arrays.each do |x|
       x.each do |k,v|
-        binding.pry
        winnername = k.value if v == "Winner"
+       binding.pry
+
        winnername=winnername.to_s
 
   end
