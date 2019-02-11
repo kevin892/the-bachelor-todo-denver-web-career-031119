@@ -33,7 +33,6 @@ binding.pry
 
     end
     end
-    end
 
 
 def get_occupation(data, hometown)
