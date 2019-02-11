@@ -1,9 +1,13 @@
-def get_first_name_of_season_winner(data, season)
-  # code here
+
+return winnername
 end
 
 def get_contestant_name(data, occupation)
-  # code here
+  namer = ""
+  data[occupation.to_sym].each do |i|
+    namer = i[:name] if i[:occupation]== occupation
+end
+return namer
 end
 
 def count_contestants_by_hometown(data, hometown)
