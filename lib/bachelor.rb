@@ -13,6 +13,7 @@ winnername = ""
 end
 end
 end
+return winnername
 end
 
 
