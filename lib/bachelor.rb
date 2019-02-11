@@ -5,9 +5,8 @@ winnername = ""
    data.each do |i, arrays|
    if season == i
    arrays.each do |x|
-      x.each do |k,v|
-       if x[v]= "Winner"
-         winnername = x[name]
+       if x["status"]= "Winner"
+         winnername = x["name"]
        binding.pry
 
        winnername=winnername.to_s
