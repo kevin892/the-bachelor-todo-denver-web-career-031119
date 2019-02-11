@@ -29,6 +29,7 @@ def count_contestants_by_hometown(data, hometown)
     arrays.map do |x|
       if x["hometown"] == hometown
         array.push(x["name"])
+        binding.pry
         return array.length
       end
     end
