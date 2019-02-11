@@ -26,7 +26,8 @@ end
 def count_contestants_by_hometown(data, hometown)
   data.each do |seasons, arrays|
     arrays.each do |x|
-      d.count(hometown)
+      x.count(hometown)
+      binding.pry
       if x["hometown"] == hometown
         counter += 1
         binding.pry
