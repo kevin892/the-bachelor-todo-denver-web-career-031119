@@ -29,7 +29,7 @@ def count_contestants_by_hometown(data, hometown)
     arrays.each do |x|
     x.map do |x, y|
       counter.push(x)
-
+binding.pry
       return counter
       end
     end
