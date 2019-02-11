@@ -1,6 +1,20 @@
+require "pry"
 
-return winnername
+def get_first_name_of_season_winner(data, season)
+winnername = nil
+   data.each do |i, arrays|
+   if season == i
+   arrays.each do |x|
+      x.each do |k,v|
+       winnername = x.values_at("name") if x.has_value("Winner")
+       binding.pry
+       winnername=winnername.to_s
+
+  end
 end
+end
+end
+
 
 def get_contestant_name(data, occupation)
   namer = ""
