@@ -1,16 +1,15 @@
 require "pry"
 
 def get_first_name_of_season_winner(data, season)
-   data.each do |i, arrays|
-   if season == i
+   data.each do |seasons, arrays|
+   if season == seasons
    arrays.each do |x|
        if x["status"]= "Winner"
          return x["name"].split(' ').first
-
+        end
+      end
+    end
   end
-end
-end
-end
 end
 
 
