@@ -17,7 +17,6 @@ def get_contestant_name(data, occupation)
   newarray =[]
   data.each do |seasons, arrays|
     arrays.each do |x|
-      binding.pry
       if x["occupation"] = "Chiropractic Assistant"
       newarray.push(x["name"])
     return newarray
