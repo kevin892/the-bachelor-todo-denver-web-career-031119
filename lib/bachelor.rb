@@ -15,8 +15,10 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |seasons, arrays|
+    arrays.each do |x|
+      if x["occupation"] = occupation
+        return x["name"]
     binding.pry
-    return seasons
 end
 end
 
