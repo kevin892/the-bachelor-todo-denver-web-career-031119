@@ -24,9 +24,8 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-counter = 0
   data.each do |seasons, arrays|
-    binding.pry
+    t= arrays.count(hometown)
     arrays.each do |x|
       if x["hometown"] == hometown
         counter += 1
