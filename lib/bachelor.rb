@@ -1,5 +1,4 @@
 require "pry"
-
 def get_first_name_of_season_winner(data, season)
    data.each do |seasons, arrays|
    if season == seasons
@@ -30,12 +29,12 @@ def count_contestants_by_hometown(data, hometown)
     x.each do |k, v|
       if v == hometown
         counter += 1
+          end
+        end
+      end
     end
-  end
-    end
-    end
-    return counter
-  end
+  return counter
+end
 
 
 def get_occupation(data, hometown)
