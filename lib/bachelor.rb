@@ -29,7 +29,9 @@ def count_contestants_by_hometown(data, hometown)
     arrays.each do |x|
     if x["hometown"].inlcude?(hometown)
       counter += 1
+      return counter
       end
+    end
     end
     end
 
