@@ -46,6 +46,6 @@ def get_average_age_for_season(data, season)
 end
 end
 end
-counter /= 27
+counter /= 25
 return counter
 end
