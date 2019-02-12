@@ -47,6 +47,6 @@ def get_average_age_for_season(data, season)
 end
 end
 end
-    counter /= arrays.legth
+    counter /= j.to_int
 return counter
 end
