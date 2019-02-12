@@ -46,8 +46,7 @@ def get_average_age_for_season(data, season)
       counter += x["age"].to_i
 end
 counter /= num
-counter.round
 end
 end
-return counter.to_i
+return counter.round
 end
