@@ -48,5 +48,5 @@ end
 counter = counter / j
 end
 end
-return j
+return counter
 end
