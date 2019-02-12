@@ -45,9 +45,9 @@ def get_average_age_for_season(data, season)
     arrays.each do |x|
       counter += x["age"].to_i
 end
-
-end
 counter /= j
+end
+
 end
 
 return counter
