@@ -48,5 +48,5 @@ end
 counter /= num.to_f
 end
 end
-return counter
+return counter.round
 end
