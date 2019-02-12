@@ -47,7 +47,7 @@ def get_average_age_for_season(data, season)
 end
 
 end
-j = arrays.size
+counter /= j
 end
 
 return counter
